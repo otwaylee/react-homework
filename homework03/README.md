@@ -33,11 +33,11 @@ Button.propTypes = {
 export default Button;
 ```
 다음과 같이 props를 통해 버튼의 레이블, 클릭 핸들러, 타입, 스타일, 추가 클래스 이름을 받았다. 
-label: 버튼에 표시될 텍스트를 나타냄. 필수이며, 타입은 string
-onClick: 버튼 클릭 시 호출되는 함수, 필수이며, 타입은 func
-type: 버튼의 타입을 나타내고 기본값은 'button' 타입은 string
-style: 인라인 스타일을 지정하기 위한 객체, 타입은 object
-className: 추가적인 CSS 클래스를 지정할 수 있는 문자열,  타입은 string
+- label: 버튼에 표시될 텍스트를 나타냄. 필수이며, 타입은 string
+- onClick: 버튼 클릭 시 호출되는 함수, 필수이며, 타입은 func
+- type: 버튼의 타입을 나타내고 기본값은 'button' 타입은 string
+- style: 인라인 스타일을 지정하기 위한 객체, 타입은 object
+- className: 추가적인 CSS 클래스를 지정할 수 있는 문자열,  타입은 string
 
 3. 로그인 페이지 렌더링
 앞서 만든 Input과 Button을 LoginPage.jsx에서 조립하였고, 
