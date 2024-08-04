@@ -1,0 +1,40 @@
+body {
+  font-family: 'Pretendard Variable', Pretendard, sans-serif;
+}
+
+.login-input-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  /* padding: 80px 50px; */
+  border-radius: 10px;
+  /* background-color: var(--white);  */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  min-width: 320px;
+  max-width: 400px; 
+  width: 100%; 
+  margin-block: 20px;
+}
+
+.login-input {
+  display: flex;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border: 1px solid var(--gray-300);
+  border-radius: var(--rounded-sm);
+  line-height: 160%;
+}
+
+.error-message {
+  color: #5E0080;
+  margin-bottom: 10px;
+}
+
+.login-input::placeholder {
+  color: var(--gray-400);
+}
+
+.login-input:hover,
+.login-input:focus {
+  border-color: var(--gray-800); 
+  outline: none; 
+}

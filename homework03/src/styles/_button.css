@@ -1,0 +1,25 @@
+.button {
+  display: flex;
+  flex-flow: column;
+  margin-top: 10px;
+  width: 400px;
+  height: 54px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fill {
+  background-color: #5f0080;
+  border: #5f0080;
+  color: var(--white);
+}
+
+.stroke {
+  background-color: transparent;
+  border: 1px solid #5f0080;
+  color: #5f0080;
+}
